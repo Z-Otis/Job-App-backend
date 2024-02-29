@@ -1,5 +1,5 @@
 var corsOptions = {
-    origin: 'https://www.blueandco.org',
+    origin: 'https://blueandco.org/contactInfo',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }
 
