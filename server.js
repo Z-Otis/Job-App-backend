@@ -3,13 +3,13 @@ const jobRoutes = require('./routes/jobAppRoutes')
 const mongoose = require('mongoose')
 const express = require('express')
 const cors = require('cors')
-const corsOptions = require('./middldeware/corsOptions')
+
 
 
 
 
 const app = express()
-app.use(cors(corsOptions))
+app.use(cors())
 app.use(express.json())
 app.use('/api', jobRoutes)
 
